@@ -1,0 +1,19 @@
+.background {
+  /* From https://css.glass */
+  background: rgba(223, 216, 16, 0.62);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border: 1px solid rgba(223, 216, 16, 0.12);
+}
+
+.bneu {
+  border-radius: 33px;
+  background: linear-gradient(145deg, #ffffff, #ddd8d8);
+  box-shadow: 5px 5px 10px #c9c5c5, -5px -5px 10px #ffffff;
+}
+
+#blueDIV {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
